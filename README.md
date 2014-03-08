@@ -1,4 +1,4 @@
-# Atom.io http-requestor Package
+# Atom.io http-post Package
 
 A simple Atom.io http-post to test RESTful API.
 
