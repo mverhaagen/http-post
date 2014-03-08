@@ -10,9 +10,9 @@ apm install http-post
 ```
 
 # Usage:
-http-post uses a JSON module to execute the request on the specified hostname.  Open Atom.io and create a new file with the below format.  In Atom, press "command+shift+P" then type "Http Post: Request" or "Control+Option+P" to execute the package.
+http-post uses a JSON to execute the request on the specified hostname.  Open Atom.io and create a new file with the below format.  In Atom, press "command+shift+P" then type "Http Post: Request" or "Control+Option+P" to execute the package.
 
-# Example JSON module:
+# Example JSON:
 ```
   module.export = {
     hostname: [Host IP or DNS],
