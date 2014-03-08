@@ -1,6 +1,6 @@
 # Atom.io http-requestor Package
 
-A simple Atom.io http-requestor to test RESTful API
+A simple Atom.io http-post to test RESTful API
 
 This is a Work-In-Process
 
