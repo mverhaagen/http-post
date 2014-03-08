@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "A simple requestor test web requests.",
   "activationEvents": ["http-post:request"],
-  "repository": "https://github.com/atom/http-post",
+  "repository": "https://github.com/mverhaagen/http-post.git",
   "license": "MIT",
   "author": {
     "name": "Mike Verhaagen",
