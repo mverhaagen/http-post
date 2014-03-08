@@ -1,9 +1,11 @@
 {
   "name": "http-post",
   "main": "./lib/http-post",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple requestor test web requests.",
-  "activationEvents": ["http-post:request"],
+  "activationEvents": [
+    "http-post:request"
+  ],
   "repository": "https://github.com/mverhaagen/http-post.git",
   "license": "MIT",
   "author": {
@@ -13,6 +15,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
