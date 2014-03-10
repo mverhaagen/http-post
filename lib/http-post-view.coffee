@@ -27,11 +27,11 @@ class HttpPostView extends View
       editor.insertText """
         Usage:
 
-        module.export = {
-          hostname: "[Host IP or DNS]",
-          path: "[Path for Resrouce]",
-          method: "[GET | POST]",
-          body: "[ - Optional - ]"
+        {
+          "hostname": "[Host IP or DNS]",
+          "path": "[Path for Resrouce]",
+          "method": "[GET | POST]",
+          "body": "[ - Optional - ]"
         }
 
       """
