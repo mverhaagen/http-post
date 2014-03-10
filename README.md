@@ -14,10 +14,10 @@ http-post uses JSON to execute the request on the specified hostname.  Open Atom
 
 # Example JSON:
 ```
-  module.export = {
-    hostname: [Host IP or DNS],
-    path: [Path for Resrouce],
-    method: [HTTP Verb]
-    body: { - Optional - }
+  {
+    "hostname": "[Host IP or DNS]",
+    "path": "[Path for Resrouce]",
+    "method": "[HTTP Verb]",
+    "body": "[ - Optional - ]"
   }
 ```

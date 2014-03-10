@@ -28,18 +28,19 @@ class HttpPostView extends View
         Usage:
 
         module.export = {
-          hostname: [Host IP or DNS],
-          path: [Path for Resrouce],
-          method: [GET | POST]
-          body: { - Optional - }
+          hostname: "[Host IP or DNS]",
+          path: "[Path for Resrouce]",
+          method: "[GET | POST]",
+          body: "[ - Optional - ]"
         }
 
       """
 
 
   execute: ->
+    obj = {}
     editor = atom.workspace.activePaneItem
-    obj = eval(editor.getText())
+    obj = JSON.parse(editor.getText())
     atom.workspace.open("", split: 'right', changeFocus: true, searchAllPanes: true).done () ->
       editor = atom.workspace.activePaneItem
       options =
@@ -59,7 +60,8 @@ class HttpPostView extends View
 
   post: =>
     editor = atom.workspace.activePaneItem
-    obj = eval(editor.getText())
+    obj = JSON.parse(editor.getText())
+    console.log obj
 
     if not obj.hostname or not obj.path or not obj.method
       @usage()
