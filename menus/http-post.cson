@@ -3,7 +3,7 @@
   '.overlayer':
       'Enable http-request'
 
-'menu': [
+'atom-text-editor': [
   {
     'label': 'Packages'
     'submenu': [
